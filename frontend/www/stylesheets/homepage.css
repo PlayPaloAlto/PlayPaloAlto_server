@@ -1,0 +1,50 @@
+body, html, #container {
+  height: 100%;
+}
+
+#topRow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    text-align:center;
+}
+#bottomRow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align:center;
+}
+
+#tile_myProfile {
+	background-color: #FF0000;
+	height: 100%;
+}
+
+#tile_myChallenges {
+	background-color: #00FF00;
+	height: 100%;
+}
+
+#tile_featuredPlace {
+	background-color: #0000FF;
+	height: 100%;
+}
+
+#tile_featuredEvent {
+	background-color: #000000;
+	height: 100%;
+}
+
+.tile {
+   display:table;
+}
+
+h3 {
+   display:table-cell;
+   vertical-align:middle;
+   text-align:center;
+}
